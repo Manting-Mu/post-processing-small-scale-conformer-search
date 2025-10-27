@@ -1,0 +1,17 @@
+name: my-rdkit-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - rdkit
+  - nb_conda_kernels
+  - openbabel
+  - matplotlib
+  - scikit-learn
+  - numpy
+  - seaborn
+  - kneed
+  - umap-learn
+  - hdbscan
+  - cmcrameri
+prefix: /Users/mantingmu/opt/anaconda3/envs/my-rdkit-env
