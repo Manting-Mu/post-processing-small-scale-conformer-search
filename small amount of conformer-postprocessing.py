@@ -168,8 +168,8 @@ scaled_features = StandardScaler().fit_transform(features)
 # 2. Define KMeans arguments for clustering and SSE calculations
 kmeans_kwargs = {
     "init": "random",
-    "n_init": 10,
-    "max_iter": 300,
+    "n_init": 10,   #one can change this option for inital cluster number
+    "max_iter": 300,   #can be changed
 }
 
 # 3. Calculate SSE for a range of cluster values to find the elbow
